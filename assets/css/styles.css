@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f9ff;
+}
+
+h1, h2 {
+    font-size: 2.5em;
+    color: #0056b3;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: center;
+    color: #0056b3;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #004080;
+    padding: 1em 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .brand {
+    font-size: 1.8em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Intro Section */
+.intro {
+    background-color: #0073e6;
+    color: white;
+    padding: 5em 0;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.intro p {
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.intro .btn {
+    background-color: #004080;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+/* Water Footprint Info Section */
+.footprint-info {
+    padding: 4em 0;
+    background-color: #e0f0ff;
+    text-align: center;
+}
+
+.footprint-info .btn {
+    background-color: #0073e6;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+/* Conservation Guides Section */
+.conservation-guides {
+    padding: 4em 0;
+    background-color: #f4f9ff;
+    text-align: center;
+}
+
+.conservation-guides .btn {
+    background-color: #0056b3;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #004080;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    margin-top: 2em;
+}
